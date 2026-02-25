@@ -7,8 +7,8 @@ import csv
 # ============================================================
 # 📥 โหลดข้อมูลจาก CSV
 # ============================================================
-# csv_filename = "high_latency_data.csv"
-csv_filename = "low_latency_data.csv"
+csv_filename = "high_latency_data.csv"
+# csv_filename = "low_latency_data.csv"
 latency_data_raw = []
 packet_loss_raw = []
 
@@ -102,7 +102,7 @@ else:
 # ============================================================
 # 📈 สร้าง Graphs (7 กราฟแบบจัดเต็ม)
 # ============================================================
-fig = plt.figure(figsize=(15, 22))
+fig = plt.figure(figsize=(10, 15))
 fig.suptitle(
     "Comprehensive Network Performance Analysis\nDescriptive, Probability & Inferential Statistics",
     fontsize=18,
